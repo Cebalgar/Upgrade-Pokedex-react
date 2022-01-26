@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+  }
+  
+  .App {
+    display: flex;
+    justify-content: center;
+    font-family: Calibri;
+    font-size: 24px;
+  }
+  
+  .TitleSection {
+    background-color: #ddc8e9;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(119, 80, 209);
+  }
+  
+  .TitleSection input {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #5e98b1;
+    font-size: 18px;
+    padding-left: 10px;
+  }
+  
+  .TitleSection button {
+    width: 180px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding-left: 10px;
+    border: none;
+    color: #e7e7e6;
+    background-color: #333533
+  }
+  
+  .TitleSection button:hover {
+    cursor:pointer;
+  }
+  .Feature{
+    width: 300px;
+    height: 550px;
+    margin-bottom: 300px;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: antiquewhite;
+    color:rgb(119, 80, 209);
+    border-radius: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size:large;
+  }
+
+    
+
